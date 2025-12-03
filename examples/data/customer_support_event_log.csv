@@ -1,0 +1,229 @@
+case_id,agent,tool_used,concept:timestamp,concept:name
+1,Bob,,2025-11-02 22:09:08,Receive Request
+1,Bob,Knowledge Base,2025-11-02 22:11:08,Use Tool: Knowledge Base
+1,Bob,,2025-11-02 22:14:08,Resolve Issue
+2,Charlie,,2025-11-02 22:14:08,Receive Request
+2,Charlie,ElevenLabs TTS,2025-11-02 22:17:08,Use Tool: ElevenLabs TTS
+3,Alice,,2025-11-02 22:19:08,Receive Request
+2,Charlie,,2025-11-02 22:21:08,Assign to Agent
+4,Alice,,2025-11-02 22:24:08,Receive Request
+2,Charlie,Translator,2025-11-02 22:29:08,Use Tool: Translator
+3,Alice,ElevenLabs TTS,2025-11-02 22:29:08,Use Tool: ElevenLabs TTS
+5,Alice,,2025-11-02 22:29:08,Receive Request
+4,Alice,,2025-11-02 22:30:08,Assign to Agent
+2,Charlie,,2025-11-02 22:33:08,Resolve Issue
+5,Alice,ElevenLabs TTS,2025-11-02 22:34:08,Use Tool: ElevenLabs TTS
+6,Alice,,2025-11-02 22:34:08,Receive Request
+3,Alice,,2025-11-02 22:37:08,Assign to Agent
+7,Alice,,2025-11-02 22:39:08,Receive Request
+4,Alice,CRM,2025-11-02 22:41:08,Use Tool: CRM
+5,Alice,,2025-11-02 22:44:08,Assign to Agent
+8,Charlie,,2025-11-02 22:44:08,Receive Request
+8,Charlie,Knowledge Base,2025-11-02 22:45:08,Use Tool: Knowledge Base
+3,Alice,Translator,2025-11-02 22:46:08,Use Tool: Translator
+7,Alice,ElevenLabs TTS,2025-11-02 22:47:08,Use Tool: ElevenLabs TTS
+8,Charlie,,2025-11-02 22:48:08,Resolve Issue
+6,Alice,,2025-11-02 22:49:08,Assign to Agent
+9,Diana,,2025-11-02 22:49:08,Receive Request
+5,Alice,Translator,2025-11-02 22:51:08,Use Tool: Translator
+3,Alice,,2025-11-02 22:53:08,Resolve Issue
+4,Alice,Analyzer,2025-11-02 22:53:08,Use Tool: Analyzer
+7,Alice,,2025-11-02 22:53:08,Assign to Agent
+5,Alice,,2025-11-02 22:54:08,Resolve Issue
+10,Charlie,,2025-11-02 22:54:08,Receive Request
+9,Diana,ElevenLabs TTS,2025-11-02 22:55:08,Use Tool: ElevenLabs TTS
+6,Alice,CRM,2025-11-02 22:57:08,Use Tool: CRM
+7,Alice,Translator,2025-11-02 22:58:08,Use Tool: Translator
+9,Diana,,2025-11-02 22:59:08,Assign to Agent
+10,Charlie,ElevenLabs TTS,2025-11-02 22:59:08,Use Tool: ElevenLabs TTS
+11,Charlie,,2025-11-02 22:59:08,Receive Request
+7,Alice,,2025-11-02 23:02:08,Resolve Issue
+9,Diana,Translator,2025-11-02 23:04:08,Use Tool: Translator
+12,Diana,,2025-11-02 23:04:08,Receive Request
+4,Alice,,2025-11-02 23:07:08,Resolve Issue
+10,Charlie,,2025-11-02 23:07:08,Assign to Agent
+12,Diana,ElevenLabs TTS,2025-11-02 23:08:08,Use Tool: ElevenLabs TTS
+13,Alice,,2025-11-02 23:09:08,Receive Request
+11,Charlie,,2025-11-02 23:10:08,Assign to Agent
+6,Alice,Analyzer,2025-11-02 23:11:08,Use Tool: Analyzer
+10,Charlie,Translator,2025-11-02 23:12:08,Use Tool: Translator
+9,Diana,,2025-11-02 23:14:08,Resolve Issue
+14,Bob,,2025-11-02 23:14:08,Receive Request
+12,Diana,,2025-11-02 23:15:08,Assign to Agent
+13,Alice,ElevenLabs TTS,2025-11-02 23:19:08,Use Tool: ElevenLabs TTS
+14,Bob,Knowledge Base,2025-11-02 23:19:08,Use Tool: Knowledge Base
+15,Charlie,,2025-11-02 23:19:08,Receive Request
+6,Alice,,2025-11-02 23:21:08,Resolve Issue
+10,Charlie,,2025-11-02 23:21:08,Resolve Issue
+11,Charlie,CRM,2025-11-02 23:22:08,Use Tool: CRM
+13,Alice,,2025-11-02 23:22:08,Assign to Agent
+15,Charlie,Knowledge Base,2025-11-02 23:23:08,Use Tool: Knowledge Base
+14,Bob,,2025-11-02 23:24:08,Resolve Issue
+16,Diana,,2025-11-02 23:24:08,Receive Request
+12,Diana,Translator,2025-11-02 23:25:08,Use Tool: Translator
+15,Charlie,,2025-11-02 23:25:08,Resolve Issue
+11,Charlie,Analyzer,2025-11-02 23:28:08,Use Tool: Analyzer
+13,Alice,Translator,2025-11-02 23:28:08,Use Tool: Translator
+17,Bob,,2025-11-02 23:29:08,Receive Request
+16,Diana,,2025-11-02 23:30:08,Assign to Agent
+13,Alice,,2025-11-02 23:31:08,Resolve Issue
+18,Charlie,,2025-11-02 23:34:08,Receive Request
+12,Diana,,2025-11-02 23:35:08,Resolve Issue
+16,Diana,CRM,2025-11-02 23:39:08,Use Tool: CRM
+19,Charlie,,2025-11-02 23:39:08,Receive Request
+11,Charlie,,2025-11-02 23:41:08,Resolve Issue
+18,Charlie,ElevenLabs TTS,2025-11-02 23:43:08,Use Tool: ElevenLabs TTS
+17,Bob,,2025-11-02 23:44:08,Assign to Agent
+19,Charlie,Knowledge Base,2025-11-02 23:44:08,Use Tool: Knowledge Base
+20,Diana,,2025-11-02 23:44:08,Receive Request
+19,Charlie,,2025-11-02 23:47:08,Resolve Issue
+20,Diana,ElevenLabs TTS,2025-11-02 23:47:08,Use Tool: ElevenLabs TTS
+21,Bob,,2025-11-02 23:49:08,Receive Request
+16,Diana,Analyzer,2025-11-02 23:51:08,Use Tool: Analyzer
+18,Charlie,,2025-11-02 23:51:08,Assign to Agent
+22,Bob,,2025-11-02 23:54:08,Receive Request
+17,Bob,CRM,2025-11-02 23:55:08,Use Tool: CRM
+20,Diana,,2025-11-02 23:55:08,Assign to Agent
+22,Bob,Knowledge Base,2025-11-02 23:55:08,Use Tool: Knowledge Base
+21,Bob,ElevenLabs TTS,2025-11-02 23:56:08,Use Tool: ElevenLabs TTS
+22,Bob,,2025-11-02 23:57:08,Resolve Issue
+20,Diana,Translator,2025-11-02 23:59:08,Use Tool: Translator
+23,Diana,,2025-11-02 23:59:08,Receive Request
+18,Charlie,Translator,2025-11-03 00:00:08,Use Tool: Translator
+16,Diana,,2025-11-03 00:04:08,Resolve Issue
+24,Charlie,,2025-11-03 00:04:08,Receive Request
+21,Bob,,2025-11-03 00:05:08,Assign to Agent
+23,Diana,ElevenLabs TTS,2025-11-03 00:07:08,Use Tool: ElevenLabs TTS
+20,Diana,,2025-11-03 00:08:08,Resolve Issue
+18,Charlie,,2025-11-03 00:09:08,Resolve Issue
+24,Charlie,Knowledge Base,2025-11-03 00:09:08,Use Tool: Knowledge Base
+25,Charlie,,2025-11-03 00:09:08,Receive Request
+17,Bob,Analyzer,2025-11-03 00:10:08,Use Tool: Analyzer
+21,Bob,Translator,2025-11-03 00:10:08,Use Tool: Translator
+24,Charlie,,2025-11-03 00:12:08,Resolve Issue
+25,Charlie,ElevenLabs TTS,2025-11-03 00:12:08,Use Tool: ElevenLabs TTS
+21,Bob,,2025-11-03 00:13:08,Resolve Issue
+26,Charlie,,2025-11-03 00:14:08,Receive Request
+23,Diana,,2025-11-03 00:15:08,Assign to Agent
+25,Charlie,,2025-11-03 00:17:08,Assign to Agent
+23,Diana,Translator,2025-11-03 00:18:08,Use Tool: Translator
+26,Charlie,ElevenLabs TTS,2025-11-03 00:18:08,Use Tool: ElevenLabs TTS
+27,Diana,,2025-11-03 00:19:08,Receive Request
+17,Bob,,2025-11-03 00:20:08,Resolve Issue
+23,Diana,,2025-11-03 00:21:08,Resolve Issue
+28,Alice,,2025-11-03 00:24:08,Receive Request
+25,Charlie,Translator,2025-11-03 00:25:08,Use Tool: Translator
+26,Charlie,,2025-11-03 00:25:08,Assign to Agent
+27,Diana,ElevenLabs TTS,2025-11-03 00:28:08,Use Tool: ElevenLabs TTS
+29,Diana,,2025-11-03 00:29:08,Receive Request
+29,Diana,Knowledge Base,2025-11-03 00:30:08,Use Tool: Knowledge Base
+25,Charlie,,2025-11-03 00:32:08,Resolve Issue
+29,Diana,,2025-11-03 00:33:08,Resolve Issue
+26,Charlie,Translator,2025-11-03 00:34:08,Use Tool: Translator
+27,Diana,,2025-11-03 00:34:08,Assign to Agent
+30,Bob,,2025-11-03 00:34:08,Receive Request
+28,Alice,,2025-11-03 00:36:08,Assign to Agent
+31,Alice,,2025-11-03 00:39:08,Receive Request
+27,Diana,Translator,2025-11-03 00:42:08,Use Tool: Translator
+31,Alice,ElevenLabs TTS,2025-11-03 00:42:08,Use Tool: ElevenLabs TTS
+26,Charlie,,2025-11-03 00:43:08,Resolve Issue
+32,Charlie,,2025-11-03 00:44:08,Receive Request
+27,Diana,,2025-11-03 00:47:08,Resolve Issue
+30,Bob,,2025-11-03 00:48:08,Assign to Agent
+31,Alice,,2025-11-03 00:48:08,Assign to Agent
+28,Alice,CRM,2025-11-03 00:49:08,Use Tool: CRM
+32,Charlie,,2025-11-03 00:49:08,Assign to Agent
+33,Diana,,2025-11-03 00:49:08,Receive Request
+31,Alice,Translator,2025-11-03 00:51:08,Use Tool: Translator
+34,Charlie,,2025-11-03 00:54:08,Receive Request
+32,Charlie,CRM,2025-11-03 00:56:08,Use Tool: CRM
+33,Diana,,2025-11-03 00:57:08,Assign to Agent
+28,Alice,Analyzer,2025-11-03 00:58:08,Use Tool: Analyzer
+35,Diana,,2025-11-03 00:59:08,Receive Request
+31,Alice,,2025-11-03 01:01:08,Resolve Issue
+30,Bob,CRM,2025-11-03 01:02:08,Use Tool: CRM
+28,Alice,,2025-11-03 01:04:08,Resolve Issue
+36,Diana,,2025-11-03 01:04:08,Receive Request
+35,Diana,,2025-11-03 01:06:08,Assign to Agent
+30,Bob,Analyzer,2025-11-03 01:07:08,Use Tool: Analyzer
+34,Charlie,,2025-11-03 01:08:08,Assign to Agent
+37,Alice,,2025-11-03 01:09:08,Receive Request
+32,Charlie,Analyzer,2025-11-03 01:11:08,Use Tool: Analyzer
+33,Diana,CRM,2025-11-03 01:11:08,Use Tool: CRM
+37,Alice,Knowledge Base,2025-11-03 01:11:08,Use Tool: Knowledge Base
+30,Bob,,2025-11-03 01:12:08,Resolve Issue
+37,Alice,,2025-11-03 01:13:08,Resolve Issue
+34,Charlie,CRM,2025-11-03 01:14:08,Use Tool: CRM
+38,Charlie,,2025-11-03 01:14:08,Receive Request
+33,Diana,Analyzer,2025-11-03 01:16:08,Use Tool: Analyzer
+36,Diana,,2025-11-03 01:19:08,Assign to Agent
+38,Charlie,ElevenLabs TTS,2025-11-03 01:19:08,Use Tool: ElevenLabs TTS
+39,Diana,,2025-11-03 01:19:08,Receive Request
+32,Charlie,,2025-11-03 01:21:08,Resolve Issue
+35,Diana,CRM,2025-11-03 01:21:08,Use Tool: CRM
+40,Bob,,2025-11-03 01:24:08,Receive Request
+33,Diana,,2025-11-03 01:26:08,Resolve Issue
+39,Diana,,2025-11-03 01:26:08,Assign to Agent
+34,Charlie,Analyzer,2025-11-03 01:28:08,Use Tool: Analyzer
+38,Charlie,,2025-11-03 01:28:08,Assign to Agent
+41,Charlie,,2025-11-03 01:29:08,Receive Request
+39,Diana,CRM,2025-11-03 01:31:08,Use Tool: CRM
+35,Diana,Analyzer,2025-11-03 01:32:08,Use Tool: Analyzer
+38,Charlie,Translator,2025-11-03 01:33:08,Use Tool: Translator
+34,Charlie,,2025-11-03 01:34:08,Resolve Issue
+36,Diana,CRM,2025-11-03 01:34:08,Use Tool: CRM
+40,Bob,,2025-11-03 01:34:08,Assign to Agent
+42,Bob,,2025-11-03 01:34:08,Receive Request
+39,Diana,Analyzer,2025-11-03 01:36:08,Use Tool: Analyzer
+41,Charlie,ElevenLabs TTS,2025-11-03 01:37:08,Use Tool: ElevenLabs TTS
+35,Diana,,2025-11-03 01:38:08,Resolve Issue
+43,Alice,,2025-11-03 01:39:08,Receive Request
+38,Charlie,,2025-11-03 01:40:08,Resolve Issue
+36,Diana,Analyzer,2025-11-03 01:42:08,Use Tool: Analyzer
+40,Bob,CRM,2025-11-03 01:43:08,Use Tool: CRM
+42,Bob,,2025-11-03 01:44:08,Assign to Agent
+44,Bob,,2025-11-03 01:44:08,Receive Request
+41,Charlie,,2025-11-03 01:45:08,Assign to Agent
+39,Diana,,2025-11-03 01:46:08,Resolve Issue
+36,Diana,,2025-11-03 01:48:08,Resolve Issue
+41,Charlie,Translator,2025-11-03 01:48:08,Use Tool: Translator
+43,Alice,,2025-11-03 01:48:08,Assign to Agent
+44,Bob,Knowledge Base,2025-11-03 01:48:08,Use Tool: Knowledge Base
+45,Diana,,2025-11-03 01:49:08,Receive Request
+44,Bob,,2025-11-03 01:51:08,Resolve Issue
+45,Diana,ElevenLabs TTS,2025-11-03 01:52:08,Use Tool: ElevenLabs TTS
+41,Charlie,,2025-11-03 01:53:08,Resolve Issue
+46,Bob,,2025-11-03 01:54:08,Receive Request
+45,Diana,,2025-11-03 01:55:08,Assign to Agent
+40,Bob,Analyzer,2025-11-03 01:58:08,Use Tool: Analyzer
+42,Bob,CRM,2025-11-03 01:58:08,Use Tool: CRM
+43,Alice,CRM,2025-11-03 01:59:08,Use Tool: CRM
+47,Diana,,2025-11-03 01:59:08,Receive Request
+45,Diana,Translator,2025-11-03 02:02:08,Use Tool: Translator
+46,Bob,,2025-11-03 02:04:08,Assign to Agent
+48,Diana,,2025-11-03 02:04:08,Receive Request
+40,Bob,,2025-11-03 02:05:08,Resolve Issue
+47,Diana,ElevenLabs TTS,2025-11-03 02:05:08,Use Tool: ElevenLabs TTS
+47,Diana,,2025-11-03 02:08:08,Assign to Agent
+46,Bob,CRM,2025-11-03 02:09:08,Use Tool: CRM
+48,Diana,Knowledge Base,2025-11-03 02:09:08,Use Tool: Knowledge Base
+49,Bob,,2025-11-03 02:09:08,Receive Request
+42,Bob,Analyzer,2025-11-03 02:10:08,Use Tool: Analyzer
+47,Diana,Translator,2025-11-03 02:11:08,Use Tool: Translator
+48,Diana,,2025-11-03 02:11:08,Resolve Issue
+45,Diana,,2025-11-03 02:12:08,Resolve Issue
+43,Alice,Analyzer,2025-11-03 02:13:08,Use Tool: Analyzer
+47,Diana,,2025-11-03 02:14:08,Resolve Issue
+50,Alice,,2025-11-03 02:14:08,Receive Request
+49,Bob,ElevenLabs TTS,2025-11-03 02:15:08,Use Tool: ElevenLabs TTS
+43,Alice,,2025-11-03 02:19:08,Resolve Issue
+46,Bob,Analyzer,2025-11-03 02:20:08,Use Tool: Analyzer
+50,Alice,ElevenLabs TTS,2025-11-03 02:20:08,Use Tool: ElevenLabs TTS
+49,Bob,,2025-11-03 02:22:08,Assign to Agent
+50,Alice,,2025-11-03 02:24:08,Assign to Agent
+42,Bob,,2025-11-03 02:25:08,Resolve Issue
+49,Bob,Translator,2025-11-03 02:25:08,Use Tool: Translator
+46,Bob,,2025-11-03 02:26:08,Resolve Issue
+50,Alice,Translator,2025-11-03 02:29:08,Use Tool: Translator
+49,Bob,,2025-11-03 02:34:08,Resolve Issue
+50,Alice,,2025-11-03 02:34:08,Resolve Issue
